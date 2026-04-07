@@ -1,0 +1,53 @@
+Table of Contents:
+    1. Date
+    2. Introduction
+    3. Download
+    4. Requirement
+    5. Usage
+    6. Contact
+######################################################################
+
+1. Date
+=======
+
+2025-07-22
+
+2. Introduction
+===============
+
+VCP (Variant Calling Pipeline) is a variant (SNP/INDEL) calling tool for whole-genome sequencing data, 
+designed for execution in an LSF-based high-performance computing environment.
+
+3. Download
+===========
+
+You can download VCP from https://github.com/GouXiangJian/VCP.
+
+4. Requirement
+==============
+
+Before running VCP, you must install the following software in advance:
+    (1) NGSQCToolkit_v2.3.3
+    (2) bwa-0.7.13
+    (3) gatk-4.1.2.0
+    (4) bcftools-1.9
+    (5) samtools-0.1.18
+    (6) tassel5
+
+5. Usage
+========
+
+perl step1.pl -h
+perl step2.pl -h
+perl step3.pl -h
+perl step4.pl -h
+perl step5.pl -h
+
+Note: When running the above script, all paths provided as parameters should be absolute paths.
+
+6. Contact
+==========
+
+If you have any questions, ideas or suggestions, please feel free to contact us:
+    Xiangjian Gou (PhD, Huazhong Agricultural University, xjgou@mail.hzau.edu.cn or 862137261@qq.com)
+    Haoran Shi (PhD, Chengdu Academy of Agricultural and Forestry Sciences, 542561234@qq.com)
