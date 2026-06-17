@@ -1,0 +1,9 @@
+#Required software and its installation path
+#You need to modify the corresponding path to suit your system !
+
+NGSQC = /public/home/xjgou/tools/NGSQCToolkit_v2.3.3/QC/IlluQC.pl
+BWA = /public/home/xjgou/tools/bwa-0.7.13/bwa
+GATK = /public/home/xjgou/tools/gatk-4.1.2.0/gatk
+BCFTOOLS = /public/home/xjgou/tools/bcftools-1.9/bcftools
+SAMTOOLS = /public/home/xjgou/tools/samtools-0.1.18/samtools
+TASSEL5 = /public/home/xjgou/tools/tassel5/run_pipeline.pl
